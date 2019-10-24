@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.row {
+    line-height: 0;
+}
+.wall {
+    background-color: blue;
+    height: 20px;
+    width: 20px;
+    display: inline-block;
+}
+.door {
+    background-color: purple;
+    height: 20px;
+    width: 20px;
+    display: inline-block;
+}
+.blank {
+    background-color: black;
+    height: 20px;
+    width: 20px;
+    display: inline-block;
+}
+.small-orb {
+    background-color: black;
+    height: 20px;
+    width: 20px;
+    display: inline-block;
+    background-image: url('img/SmallOrb.png');
+    background-size: contain;
+}
+.big-orb {
+    background-color: black;
+    height: 20px;
+    width: 20px;
+    display: inline-block;
+    background-image: url('img/BigOrb.jpg');
+    background-size: contain;
+}
+.cherry {
+    background-color: black;
+    height: 20px;
+    width: 20px;
+    display: inline-block;
+    background-image: url('img/Cherry.png');
+    background-size: contain;
+}
+#pacman {
+    background-color: black;
+    height: 20px;
+    width: 20px;
+    display: inline-block;
+    background-image: url('img/PacMan_Right.gif');
+    background-size: contain;
+    position: absolute;
+}
+#blinky {
+    background-color: black;
+    height: 20px;
+    width: 20px;
+    display: inline-block;
+    background-image: url('img/Blinky.gif');
+    background-size: contain;
+    position: absolute;
+}
+#clyde {
+    background-color: black;
+    height: 20px;
+    width: 20px;
+    display: inline-block;
+    background-image: url('img/Clyde.gif');
+    background-size: contain;
+    position: absolute;
+}
+#inky {
+    background-color: black;
+    height: 20px;
+    width: 20px;
+    display: inline-block;
+    background-image: url('img/Inky.gif');
+    background-size: contain;
+    position: absolute;
+}
+#pinky {
+    background-color: black;
+    height: 20px;
+    width: 20px;
+    display: inline-block;
+    background-image: url('img/Pinky.gif');
+    background-size: contain;
+    position: absolute;
+}
+#panel {
+    background-color: black;
+    color: white;
+    height: 20px;
+}
+#score {
+    float: left;
+}
+#lives {
+    float: right;
+}
